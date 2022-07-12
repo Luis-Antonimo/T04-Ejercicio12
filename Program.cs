@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
 
+namespace T04Ejercicio12
+{
+    class Program
+    {
+        static void Main()
+        {
+            String miNombre = "Luis";
+            Console.WriteLine("Bienvenido " + miNombre);
+        }
+    }
+}
